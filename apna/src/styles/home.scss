@@ -1,0 +1,54 @@
+::-webkit-scrollbar{
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: green;
+  border-radius: 25px;
+}
+.Home_text {
+  background-color: black;
+  display: grid;
+  place-content: center;
+  gap: 10px;
+  background-color: #0f1317;
+  box-shadow: -10px 0px 6px rgb(222, 221, 221);
+  height: 20vh;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  > h2 {
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+  }
+
+  .inp{
+    display: grid;
+    place-content: center;
+    >input{
+      padding: 12px 45px;
+      border-radius: 20px;
+      border: 0;
+      outline: 0;
+      background-color: transparent;
+      border: 1.3px solid darkcyan;
+      color: #fff;
+    }
+  }
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+
